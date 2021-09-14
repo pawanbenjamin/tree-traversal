@@ -27,7 +27,7 @@ h.children.push(m);
 d.children.push(i, j);
 
 const logger = (node) => {
-  console.log(node);
+  console.log(node.value);
 };
 
 module.exports = { a, logger };
