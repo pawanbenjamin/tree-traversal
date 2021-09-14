@@ -1,4 +1,4 @@
-import { a, logger } from "./tree";
+const { a, logger } = require("./tree");
 
 const breadthFirst = (node, callback) => {
   // write code here

@@ -1,7 +1,7 @@
-import { a, logger } from './tree'
+const { a, logger } = require("./tree");
 
 const depthFirstPre = (node, callback) => {
-    // write code here
-}
+  // write code here
+};
 
-depthFirstPre(a, logger)
+depthFirstPre(a, logger);
